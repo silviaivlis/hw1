@@ -1,0 +1,160 @@
+body{
+    margin: 0;
+    font-family: 'Poppins';
+}
+    
+#links a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+}
+
+#links a:hover, .testo a:hover{
+    color: #da732d;
+}
+  
+.button{
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #da732d;
+    color: white;
+    border-radius: 50px;
+    padding: 6px 8px;
+}
+  
+.button:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(211, 187, 155);
+}
+  
+#links{
+    font-family: 'Poppins';
+    margin-right: 50px;
+}
+  
+nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 80px;
+}
+  
+
+#sfondo{
+    background-color: #c7e0d0;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+}
+
+#saluto{
+    font-family: 'Poppins';
+    font-weight: 100;
+    color: white;
+    font-size: 50pt;
+    margin-left: 100px;
+}
+
+main{
+    width: 80vw;
+    margin: auto;
+    margin-top: -55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+section div{
+    border: 2px solid purple;
+    width: calc(48% - 30px);
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+
+.piccolo{
+    width: calc(38% - 30px);
+}
+
+.grande{
+    width: calc(58% - 30px);
+}
+
+#rubrica{
+    background-color: #da732d;
+}
+
+#titolo{
+    font-size: 32pt;
+    text-decoration: none;
+    font-weight: 100;
+    color: white;
+}
+
+a{
+    color: white;
+    font-size: 10pt;
+    text-decoration: none;
+}
+
+h3{
+    margin-bottom: 0px;
+    color: #da732d;
+    font-size: 16pt;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+}
+
+i{
+    font-size: 30px;
+    color: white;
+}
+
+#libroperfetto{
+    background-color: #fdf2ba;
+}
+
+span{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 100%;
+}
+
+#libreria{
+    background-color: #a6b3cd;
+}
+
+#recensioni{
+    background-color: #da732d;
+}
+
+article{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+}
+
+.icone{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

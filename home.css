@@ -1,0 +1,241 @@
+body{
+    margin: 0;
+}
+    
+#links a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+}
+
+#links a:hover, .testo a:hover{
+    color: #da732d;
+}
+  
+  
+.button{
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #da732d;
+    color: white;
+    border-radius: 50px;
+    padding: 6px 8px;
+}
+  
+.button:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(211, 187, 155);
+}
+  
+#links{
+    font-family: 'Poppins';
+    margin-right: 50px;
+}
+  
+nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 80px;
+}
+  
+#menu{
+    display: none;
+}
+  
+#menu div{
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px 0;
+}
+  
+
+#sfondo{
+    background-image: url(immagini/sfondo5.jpeg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.titolo{
+    font-family: 'Poppins';
+    font-weight: 100;
+    color: white;
+    font-size: 50pt;
+}
+
+#sottotitolo{
+    font-family: 'Poppins';
+    font-weight: 300;
+    color: white;
+    font-size: 18pt;
+    margin-left: 10px;
+    line-height: 35px;
+}
+
+#fasi{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+section{
+    display: flex;
+    width: 40vw;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.istruzione{
+    background-color: #a6b3cd;
+    min-height: 200px;
+    width: 25%;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    font-family: 'Poppins';
+}
+
+main{
+    width: 80vw;
+    margin: auto;
+    text-align: center;
+}
+
+#rubrica{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #da732d;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.articolo{
+    width: 25%;
+    background-color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+img{
+    width: 100%;
+}
+
+#vetrina{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+    width: 100vw;
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+
+#rubrica h1{
+    margin-bottom: 50px;
+}
+
+.testo a{
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    line-height: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+    color: black;
+}
+
+.testo{
+    padding: 10px;
+    font-family: 'Poppins';
+}
+
+main h2{
+    font-family: 'Poppins';
+    font-weight: 100;
+    color: #a6b3cd;
+    font-size: 50pt;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+span{
+    font-size: 25pt;
+    color: white;
+    margin-bottom: 18px;
+}
+
+main .titolo, #libroperfetto .titolo{
+    color:#a6b3cd;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+#libroperfetto .titolo{
+    background-color: #fdf2ba;
+    color: rgb(61, 56, 56);
+    margin-bottom: 0px;
+    text-align: center;
+
+}
+
+#fasi h3{
+    font-weight: 500;
+    font-size: 20pt;
+    margin-top: 15px;
+}
+
+header .titolo{
+    font-size: 75pt;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background-color: #c7e0d0;
+    font-family: 'Poppins';
+    font-size: 18pt;
+    font-weight: 100;
+    color: white;
+}
+
+#libroperfetto article{
+    font-family: 'Poppins';
+}
+
+#libroperfetto{
+    width: 80vw;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+#libroperfetto section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80vw;
+    margin: auto;
+    border: 2px solid gray;
+}
+
+#libroperfetto article{
+    width: 50%;
+}
+
+#destra{
+    background-color: #da732d;
+}
+
+#sinistra{
+    background-color: #a6b3cd;
+}

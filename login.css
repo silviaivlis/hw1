@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    background-image: url(immagini/prova1.jpeg);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Poppins';
+}
+
+main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#accedi{
+    width: 35vw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.titolo{
+    font-weight: 100;
+    background-color: #da732d;
+    color: white;
+    font-size: 50pt;
+    width: 100%;
+    text-align: center;
+    border-radius: 20px;
+}
+
+h3{
+    color: #da732d;
+    font-size: 32pt;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    margin: 0px;
+}
+
+label{
+    width: 100%;
+}
+
+input{
+    height: 36px;
+    width: 100%;
+    border: 2px solid #da732d;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+input:focus{
+    outline: 2px solid purple;
+    outline-offset: -2px;
+}
+
+#bottone{
+    height: fit-content;
+    width: fit-content;
+    background-color: #da732d;
+    border-radius: 5px;
+    font-size: 12pt;
+    font-family: 'Poppins';
+    margin: 10px;
+}
+
+#registrati{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#errore{
+    color: red;
+    margin-bottom: 15px;
+}
+
+a{
+    color: #da732d;
+    text-decoration: none;
+}
